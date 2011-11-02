@@ -159,8 +159,8 @@ div.wrapper {width: 90%; max-width: 580px; margin: 0 auto;}
 
 h1 a {text-decoration: none; color: #333;}
 
-nav {margin: 0 0 40px; padding: 12px 0; border-top: 2px dotted #dfdfdf; border-bottom: 2px dotted #dfdfdf; text-align: center;}
-nav ol li {display: inline-block; padding-left: 12px;}
+nav {margin: 0 0 40px; padding: 6px 0; border-top: 2px dotted #dfdfdf; border-bottom: 2px dotted #dfdfdf; text-align: center;}
+nav ol li {display: inline-block; padding-left: 12px; margin: 0;}
 nav ol li:first-child {padding-left: 0;}
 nav ol li a {text-decoration: none; font-size: 12px; text-transform: uppercase; color: #333; font-family: palatino, georgia, times, serif; white-space: nowrap;}
 nav ol li a:hover {color: #000;}
