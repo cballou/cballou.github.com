@@ -120,6 +120,7 @@ body {
 	padding: 0;
 }
 
+header h1 { margin-bottom: 10px; }
 h1 {font-size:60px;line-height:60px;}
 h2 {font-size:48px;line-height:48px;}
 h3 {font-size:36px;line-height:36px;}
@@ -159,12 +160,11 @@ div.wrapper {width: 90%; max-width: 580px; margin: 0 auto;}
 
 h1 a {text-decoration: none; color: #333;}
 
-nav {margin: 0 0 40px; padding: 12px 0; border-top: 2px dotted #dfdfdf; text-align: center;}
+nav {margin: 0 0 40px; padding: 12px 0; border-top: 2px dotted #dfdfdf; border-bottom: 2px dotted #dfdfdf; text-align: center;}
 nav ol li {display: inline-block; margin-bottom: 6px; padding-right: 12px;}
 nav ol li:last-child {padding-right: 0;}
-nav ol li a {text-decoration: none; font-size: 12px; text-transform: uppercase; color: #444; font-family: palatino, georgia, times, serif; white-space: nowrap;}
-nav ol li a:after {content: "\2605"; position: absolute; top: 100%; display: block; width: 100%; text-align: center; font-size: 10px; line-height: 10px; color: #f7f7f7; -webkit-transition: all 0.3s ease; -moz-transition: all 0.3s ease; -o-transition: all 0.3s ease; transition: all 0.3s ease;}
-nav ol li a:hover:after {color: #009;}
+nav ol li a {text-decoration: none; font-size: 12px; text-transform: uppercase; color: #333; font-family: palatino, georgia, times, serif; white-space: nowrap;}
+nav ol li a:hover {color: #036;}
 
 hr {display: none; height: 0; width: 25%; margin: 50px auto 50px; border: 0; border-bottom: 1px solid #ccc; border-bottom: 1px solid rgba(255,255,255,.3);}
 
@@ -239,7 +239,7 @@ div#overlay {display: none; position: absolute; top: 0; left: 0; height: 100%; w
 .ie div#overlay {background: url(../../img/bg-trans.png);}
 div#inner {width: 100%; height: 100%; background-repeat: no-repeat; background-position: center center;}
 
-footer {position: relative; margin: 60px 0 100px; padding: 12px 0 20px; font-size: 14px; border-top: 3px solid #cecece; color: #666;}
+footer {position: relative; margin: 60px 0 100px; padding: 12px 0 20px; font-size: 14px; border-top: 2px dotted #dfdfdf; color: #666;}
 footer a {color: #666;}
 .ie footer p img {display: none;}
 
