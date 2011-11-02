@@ -120,12 +120,11 @@ body {
 	padding: 0;
 }
 
-header h1 { margin-bottom: 10px; }
-h1 {font-size:60px;line-height:60px;}
-h2 {font-size:48px;line-height:48px;}
-h3 {font-size:36px;line-height:36px;}
-h4 {font-size:24px;line-height:24px;}
-h5 {font-size:12px;line-height:12px;}
+header h1 { font-size:60px;line-height:60px;margin-bottom: 10px; }
+h1 {font-size:48px;line-height:48px;}
+h2 {font-size:36px;line-height:36px;}
+h3 {font-size:24px;line-height:24px;}
+h4 {font-size:20px;line-height:20px;}
 
 body, select, input, textarea {color: #333;}
 a {color: #036;}
@@ -161,10 +160,10 @@ div.wrapper {width: 90%; max-width: 580px; margin: 0 auto;}
 h1 a {text-decoration: none; color: #333;}
 
 nav {margin: 0 0 40px; padding: 12px 0; border-top: 2px dotted #dfdfdf; border-bottom: 2px dotted #dfdfdf; text-align: center;}
-nav ol li {display: inline-block; margin-bottom: 6px; padding-right: 12px;}
-nav ol li:last-child {padding-right: 0;}
+nav ol li {display: inline-block; padding-left: 12px;}
+nav ol li:first-child {padding-left: 0;}
 nav ol li a {text-decoration: none; font-size: 12px; text-transform: uppercase; color: #333; font-family: palatino, georgia, times, serif; white-space: nowrap;}
-nav ol li a:hover {color: #036;}
+nav ol li a:hover {color: #000;}
 
 hr {display: none; height: 0; width: 25%; margin: 50px auto 50px; border: 0; border-bottom: 1px solid #ccc; border-bottom: 1px solid rgba(255,255,255,.3);}
 
