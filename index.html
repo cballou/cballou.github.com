@@ -12,7 +12,8 @@ title: "Corey Ballou"
 			  <img src="https://si0.twimg.com/profile_images/1826673279/corey_twitter_reasonably_small.jpg" alt="Corey Ballou" title="Follow me on Twitter @cballou" class="floatLeft" />
 			  I'm <strong>Corey</strong> and I am a web developer, blogger, open
 			  source contributor, beer lover, aspiring entrepreneur, Queen City
-			  PHP co-organizer, and employee at Skookum Digital Works.
+			  PHP co-organizer, and employee at Skookum Digital Works. For more
+			  information, you can visit my website at <a href="http://coreyballou.com" target="_blank">coreyballou.com</a>.
 			</p>	  		  
 			<p>
 			  <a href="https://twitter.com/cballou" class="twitter-follow-button btn btn-mini" data-show-count="false">Follow @cballou</a> &nbsp;
@@ -38,10 +39,16 @@ title: "Corey Ballou"
 		
 		<div class="span4 columns">
 			<img class="small-bs-icon" src="/img/glyphicons/glyphicons_266_book_open.png">									
-			<h2>Blog Posts</h2>
+			<h2>Recent Blog Posts</h2>
 			  {% for post in site.posts %}	
 			  <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
-			  <p><small><strong>{{ post.date | date: "%B %e, %Y" }}</strong> . {{ post.category }} . <a href="http://cballou.github.com{{ post.url }}#disqus_thread" data-disqus-identifier="{{ page.title }}" disqus_url="http://erjjones.github.com{{ post.url }}#!newthread"></a></small></p>			
+			  <p>
+				<small>
+					<strong>{{ post.date | date: "%B %e, %Y" }}</strong> &middot;
+					{{ post.category }} &middot;
+					<a href="http://cballou.github.com{{ post.url }}#disqus_thread" data-disqus-identifier="{{ page.title }}" disqus_url="http://cballou.github.com{{ post.url }}#!newthread"></a>
+				</small>
+			  </p>			
 			  {% endfor %}	
 		</div>		
 	</div>
