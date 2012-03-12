@@ -6,21 +6,14 @@ category: Coding
 
 <div class="row">
 	<div class="span3 columns">
-	  <h3>About this topic</h3>
-	  <p>I have always wanted to build my own blog site and this is how I did so in one day.  You can download all of the source code here.</p>	  
-	  <p><a href="https://github.com/erjjones/erjjones.github.com/zipball/master" class="btn btn-info">Download source</a></p>
+	  <h3>Socialize and Share</h3>
+	  <p><a href="https://twitter.com/share" class="twitter-share-button" data-via="cballou">Tweet</a></p>
+	  <p><g:plusone size="medium"></g:plusone></p>	 
+	  <p><script type="text/javascript" src="http://www.reddit.com/buttonlite.js?i=2&styled=off&url={{ page.url }}&newwindow=1"></script></p> 	  
 	  <br/>
-	  <h3>Topic buzz</h3>
-	  <p>What others are thinking. Add to the conversation and generate some chatter.</p>
-	  <p><a href="https://twitter.com/share" class="twitter-share-button" data-via="erjjones">Tweet</a></p>
-	  <p><g:plusone size="medium"></g:plusone></p>	  
-	  <p><script type="text/javascript" src="http://www.reddit.com/buttonlite.js?i=2&styled=off&url=http://erjjones.github.com{{ page.url }}&newwindow=1"></script></p> 	  	  
-	  <br/>
-	  <h3>Read later</h3>
-	  <p><a href="http://www.instapaper.com/hello2?url=http://erjjones.github.com{{ page.url }}&title={{ page.title }}" title="Save {{ page.title }} to Instapaper" target="_blank">Save this blog post</a> for a later read or point of reference.</p>
-	  <h3>Hacker News Feed</h3>
-	  <p><a href="http://news.ycombinator.com/item?id=3679495" target="_blank" title="Read what others are saying on news.ycombinator right now">Read what others are saying</a> on news.ycombinator right now.</p>
-	</div>	
+	  <h3>Read it Later</h3>
+	  <p><a href="http://www.instapaper.com/hello2?url={{ page.url }}&title={{ page.title }}" title="Save {{ page.title }} to Instapaper" target="_blank">Save this blog post</a> for a later read or point of reference.</p>
+	</div>
 	<div class="span9 columns">
 	  <h2>Preface</h2>
 	  <p>How I did this blog is nothing new, as a matter of fact many have done exactly what I did and it is well documented. This post is just on how I did it and since it is all very fresh in my mind I thought I would write a post about it.  For other tutorials on how to do this checkout these:</p>  	  
@@ -158,7 +151,14 @@ category: Coding
 <div class="row">
 	<div class="span3 columns">&nbsp;</div>
 	<div class="span9 column">
-			<p class="pull-right">{% if page.previous.url %} <a href="{{page.previous.url}}" title="Previous Post: {{page.previous.title}}"><i class="icon-chevron-left"></i></a> 	{% endif %}   {% if page.next.url %} 	<a href="{{page.next.url}}" title="Next Post: {{page.next.title}}"><i class="icon-chevron-right"></i></a> 	{% endif %} </p>  
+		<p class="pull-right">
+            {% if page.previous.url %}
+            <a href="{{page.previous.url}}" title="Previous Post: {{page.previous.title}}"><i class="icon-chevron-left"></i></a>
+            {% endif %}
+            {% if page.next.url %}
+            <a href="{{page.next.url}}" title="Next Post: {{page.next.title}}"><i class="icon-chevron-right"></i></a>
+            {% endif %}
+        </p>  
 	</div>
 </div>
 
