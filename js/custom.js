@@ -3,7 +3,7 @@ jQuery(document).ready(function() {
 	$('#gf').text('GitHub Followers');
     $('#gfr').text('GitHub Repos');		
 	
-	JSONP( 'https://api.github.com/users/erjjones?callback=?', function( response ) {
+	JSONP( 'https://api.github.com/users/cballou?callback=?', function( response ) {
 		var data = response.data;
 		$('#gf').text(data.followers + ' GitHub Followers');
         $('#gfr').text(data.public_repos + ' GitHub Repos');
@@ -22,12 +22,12 @@ jQuery(document).ready(function() {
 	}	
 	
 	$('#ghw').githubWidget({
-			'username': 'Erjjones',
-			'displayActions': false,
-			'firstCount': 10,
-			'displayHeader': false,
-			'displayLastCommit': false,
-			'displayAccountInformations': false,
-			'displayLanguage': false
-		});
+		'username': 'cballou',
+		'displayActions': false,
+		'firstCount': 10,
+		'displayHeader': false,
+		'displayLastCommit': false,
+		'displayAccountInformations': false,
+		'displayLanguage': false
+	});
 });
