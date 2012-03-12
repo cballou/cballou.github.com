@@ -5,8 +5,8 @@ jQuery(document).ready(function() {
 	
 	JSONP( 'https://api.github.com/users/cballou?callback=?', function( response ) {
 		var data = response.data;
-		$('#gf').text(data.followers + ' GitHub Followers');
-        $('#gfr').text(data.public_repos + ' GitHub Repos');
+		$('#gf').text('<strong>' + data.followers + '</strong> GitHub Followers');
+        $('#gfr').text('<strong>' + data.public_repos + '</strong> GitHub Repos');
 	});
 	
 	function JSONP( url, callback ) {
