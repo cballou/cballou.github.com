@@ -3497,3 +3497,5 @@ a.thumbnail:hover {
 .columns li {
   margin-bottom: 4px;
 }
+
+.ghwidget span.name { display: block; }
