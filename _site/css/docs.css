@@ -21,12 +21,21 @@ body {
 /* Tweak navbar brand link to be super sleek
 -------------------------------------------------- */
 .navbar-fixed-top .brand {
+  width: 50px;
+  height: 51px;
+  background: transparent url('/img/logo.png') 0 0 no-repeat;
+  padding: 0;
+  overflow: hidden;
+  text-indent: -9999em;
+  margin: 0;
+  /*
   padding-right: 0;
   padding-left: 0;
   margin-left: 20px;
   float: right;
   font-weight: bold;
   color: #ffffff;
+  */
   text-shadow: 0 1px 0 rgba(255,255,255,.1), 0 0 30px rgba(255,255,255,.125);
   -webkit-transition: all .2s linear;
      -moz-transition: all .2s linear;
@@ -34,6 +43,19 @@ body {
 }
 .navbar-fixed-top .brand:hover {
   text-decoration: none;
+}
+
+.navbar-fixed-top .nav-collapse {
+  float: right;
+}
+
+.navbar-fixed-top .nav > li > a {
+  height: 19px;
+  padding: 16px 10px 17px;
+}
+
+.navbar-fixed-top .divider-vertical {
+  height: 51px;
 }
 
 img.floatLeft { 

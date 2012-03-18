@@ -12,23 +12,26 @@ title: "Corey Ballou"
 			  <img src="https://si0.twimg.com/profile_images/1826673279/corey_twitter_reasonably_small.jpg" alt="Corey Ballou" title="Follow me on Twitter @cballou" class="floatLeft" />
 			  I'm <strong>Corey</strong> and I am a web developer, blogger, open
 			  source contributor, beer lover, aspiring entrepreneur, Queen City
-			  PHP co-organizer, and employee at Skookum Digital Works. For more
-			  information, you can visit my website at <a href="http://coreyballou.com" target="_blank">coreyballou.com</a>.
+			  PHP co-organizer, and employee at Skookum Digital Works.
+			</p>
+			<p>
+				For more information, you can visit my website at <a href="http://coreyballou.com" target="_blank">coreyballou.com</a>
+				or web development blog <a href="http://blackbe.lt" target="_blank">blackbelt</a>.
 			</p>	  		  
 			<p>
 			  <a href="https://twitter.com/cballou" class="twitter-follow-button btn btn-mini" data-show-count="false">Follow @cballou</a> &nbsp;
 			  <a href="https://twitter.com/share" class="twitter-share-button" data-via="cballou">Tweet</a>
 			</p>		  
+		</div>
+		
+		<div class="span4 columns">
+			<img class="bs-icon" src="/img/icon-github.png">
+			<h2>My Repositories</h2>
 			<p>
 			  <a id="gf" href="https://github.com/cballou/followers" title="Go to Cballou GitHub follwers page" class="btn btn-success btn-mini" target="_blank"></a>
 			  <a id="gfr" href="https://github.com/cballou/repositories" title="Go to Cballou GitHub repositories page" class="btn btn-success btn-mini" target="_blank"></a>
 			  <!--<a href="https://github.com/cballou/Feedback/issues/new" target="_blank">Leave me feedback</a>-->
 			</p>
-		</div>
-		
-		<div class="span4 columns">
-			<img class="bs-icon" src="/img/icon-github.png">
-			<h2>My Repositories</h2>		  
 			<div id="ghw"></div>
 			<!--
 			<img class="bs-icon" src="/img/glyphicons/glyphicons_244_conversation.png">
@@ -44,8 +47,7 @@ title: "Corey Ballou"
 			  <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
 			  <p>
 				<small>
-					<strong>{{ post.date | date: "%B %e, %Y" }}</strong> &middot;
-					{{ post.category }} &middot;
+					<strong>{{ post.date | date: "%B %e, %Y" }}</strong> in {{ post.category }}<br />
 					<a href="http://cballou.github.com{{ post.url }}#disqus_thread" data-disqus-identifier="{{ page.title }}" disqus_url="http://cballou.github.com{{ post.url }}#!newthread"></a>
 				</small>
 			  </p>			
