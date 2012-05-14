@@ -284,7 +284,7 @@ a:hover {
   clear: both;
 }
 p {
-  margin: 0 0 12px;
+  margin: 0 0 16px;
 }
 p small {
   font-size: 12px;
@@ -365,7 +365,7 @@ h6 {
 }
 ul, ol {
   padding: 0;
-  margin: 0 0 9px 25px;
+  margin: 0 0 16px 50px;
 }
 ul ul,
 ul ol,
@@ -421,18 +421,20 @@ abbr {
 }
 blockquote {
   padding: 0 0 0 15px;
-  margin: 0 0 18px;
+  margin: 0 0 18px 18px;
   border-left: 5px solid #eeeeee;
 }
 blockquote p {
   margin-bottom: 0;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 300;
-  line-height: 22.5px;
+  line-height: 24.5px;
+  font-style: italic;
+  color: #999;
 }
 blockquote small {
   display: block;
-  line-height: 18px;
+  line-height: 20px;
   color: #999999;
 }
 blockquote small:before {
@@ -3499,3 +3501,4 @@ a.thumbnail:hover {
 }
 
 .ghwidget span.name { display: block; }
+#blog-post { font-size: 16px; line-height: 20px; }
