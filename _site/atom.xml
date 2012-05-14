@@ -4,12 +4,331 @@
  <title>Corey Ballou</title>
  <link href="http://cballou.github.com/atom.xml" rel="self"/>
  <link href="http://cballou.github.com/"/>
- <updated>2012-03-18T14:10:47-04:00</updated>
+ <updated>2012-05-14T16:12:08-04:00</updated>
  <id>http://cballou.github.com</id>
  <author>
    <name>Corey Ballou</name>
  </author>
  
+ 
+ <entry>
+   <title>Startup ROI and Agile Development</title>
+   <link href="http://cballou.github.com/blog/startup-roi"/>
+   <updated>2012-04-18T00:00:00-04:00</updated>
+   <id>http://cballou.github.com/blog/startup-roi</id>
+   <content type="html">&lt;div class=&quot;row&quot;&gt;
+    &lt;div class=&quot;span3 columns&quot;&gt;
+        &lt;h3&gt;About the Author&lt;/h3&gt;
+        &lt;p&gt;
+          &lt;img
+            src=&quot;https://si0.twimg.com/profile_images/1826673279/corey_twitter_reasonably_small.jpg&quot;
+            alt=&quot;Corey Ballou&quot; title=&quot;Follow me on Twitter @cballou&quot;
+            class=&quot;floatLeft profile-pic&quot;
+            width=&quot;64&quot;
+            height=&quot;64&quot;
+          /&gt;
+          I'm &lt;strong&gt;Corey&lt;/strong&gt; and I am a web developer, blogger, open
+          source contributor, beer lover, homebrewer, aspiring entrepreneur, Queen City
+          PHP co-organizer, and employee at &lt;a href=&quot;http://mojolive.com&quot; target=&quot;_blank&quot;&gt;mojoLive&lt;/a&gt;.
+        &lt;/p&gt;
+        &lt;p&gt;
+            For more information, you can visit my website at &lt;a href=&quot;http://coreyballou.com&quot; target=&quot;_blank&quot;&gt;coreyballou.com&lt;/a&gt;,
+            web development blog &lt;a href=&quot;http://blackbe.lt&quot; target=&quot;_blank&quot;&gt;blackbelt&lt;/a&gt;, or follow me on twitter:
+            &lt;a href=&quot;https://twitter.com/cballou&quot; class=&quot;twitter-follow-button btn btn-mini&quot; data-show-count=&quot;false&quot;&gt;Follow @cballou&lt;/a&gt;
+        &lt;/p&gt;
+        
+        &lt;h3&gt;Socialize and Share&lt;/h3&gt;
+        &lt;p&gt;
+        &lt;a href=&quot;https://twitter.com/share&quot; class=&quot;twitter-share-button&quot; data-via=&quot;cballou&quot;&gt;Tweet&lt;/a&gt;&lt;br /&gt;
+        &lt;a href=&quot;http://news.ycombinator.com/submit&quot; class=&quot;hn-share-button&quot;&gt;Vote on HN&lt;/a&gt;&lt;br /&gt;
+        &lt;g:plusone size=&quot;medium&quot;&gt;&lt;/g:plusone&gt;&lt;br /&gt;
+        &lt;script type=&quot;text/javascript&quot; src=&quot;http://www.reddit.com/buttonlite.js?i=2&amp;styled=off&amp;url=/blog/startup-roi&amp;newwindow=1&quot;&gt;&lt;/script&gt;
+        &lt;/p&gt;
+        &lt;h3&gt;Read it Later&lt;/h3&gt;
+        &lt;p&gt;
+        &lt;script&gt;
+        document.write('&lt;iframe class=&quot;readitlater_button&quot; id=&quot;readitlater_button1&quot; allowtransparency=&quot;true&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; width=&quot;85&quot; height=&quot;16&quot; style=&quot;z-index: 2000; overflow: hidden;position:relative;top:3px&quot;'+
+        'src=&quot;http://getpocket.com/button?url='+encodeURIComponent(document.location.href)+
+        '&amp;title='+encodeURIComponent(document.title.replace(/^\s\s*/, '').replace(/\s\s*$/, ''))+
+        '&amp;via='+encodeURIComponent(document.location.host)+
+        '&quot;&gt;&lt;/iframe&gt;');
+        &lt;/script&gt; or&lt;br /&gt;
+        &lt;a href=&quot;http://www.instapaper.com/hello2?url=/blog/startup-roi&amp;title=Startup ROI and Agile Development&quot; title=&quot;Save Startup ROI and Agile Development to Instapaper&quot; target=&quot;_blank&quot;&gt;Save post&lt;/a&gt; to Instapaper.
+        &lt;/p&gt;
+    &lt;/div&gt;
+    
+    &lt;div class=&quot;span9 columns&quot; id=&quot;blog-post&quot;&gt;
+    &lt;img src=&quot;/img/einstein-roi.jpeg&quot; width=&quot;600&quot; height=&quot;450&quot; style=&quot;display:block; margin: 0 auto 20px; border-radius: 10px; overflow: hidden;&quot; /&gt;
+&lt;h2&gt;A Preface&lt;/h2&gt;
+&lt;p&gt;
+Having spent the last four and a half years using varying methods of agile development,
+I can strongly attest to the fact that most of the time I've been doing it all wrong.
+While my past work had primarily been client based, I amassed a portfolio including
+building and launching several startup MVPs. Several things have struck me as odd while working with these startups:
+&lt;/p&gt;
+
+&lt;ol&gt;
+    &lt;li&gt;The initial specifications document (features list) is abnormally large.&lt;/li&gt;
+    &lt;li&gt;Clients generally haven't prioritized their features or ideas.&lt;/li&gt;
+    &lt;li&gt;There's generally nothing more than gut instinct or a &quot;cool factor&quot; driving the features list.&lt;/li&gt;
+    &lt;li&gt;Founders don't budge on their features. It's as if they are set in stone.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;
+I believe there needs to be a much more well defined structure to this initial
+phase as a startup moves from &lt;em&gt;ideation&lt;/em&gt; to &lt;em&gt;development&lt;/em&gt;. To be precise,
+startups should really be usability testing features throughout the process of finding
+market fit (your &lt;em&gt;niche market&lt;/em&gt;). Completely off topic, but please consider
+reading up on &lt;a href=&quot;http://en.wikipedia.org/wiki/Market_segmentation&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;segmenting your market&lt;/a&gt;
+if you aren't familiar; you won't be disappointed.
+Team members need to be asking themselves &lt;em&gt;&lt;strong&gt;why&lt;/strong&gt;&lt;/em&gt; they settled
+on a decision and &lt;em&gt;&lt;strong&gt;what benefits&lt;/strong&gt;&lt;/em&gt; they hope to receive in
+return for implementing their decisions. 
+&lt;/p&gt;
+
+&lt;h2&gt;What is Startup ROI?&lt;/h2&gt;
+&lt;p&gt;
+First, let me define &lt;em&gt;Startup ROI&lt;/em&gt;. This isn't your standard definition of
+return on investment because we aren't necessarily talking about monetary transactions. Our formula
+consists of man hours (cost of investment) and traction (gain from investment). It's
+worth noting that traction can come in many forms, so use these terms loosely
+to define your own ROI variables. Traction could be taken literally to mean new user
+signups or user engagement. Traction could also come in terms of angel investments or
+venture capital. The key point being that traction represents a gain that has a net
+positive effect on your startup.
+&lt;/p&gt;
+
+&lt;h2&gt;A Precursor to Measuring Startup ROI&lt;/h2&gt;
+&lt;p&gt;
+Let us reminisce the good old days for a moment; back to our middle school science
+experiments. We learned from an early age that there's merit to generating &lt;em&gt;testable&lt;/em&gt;
+hypothesis which will ultimately lead us to a conclusion that either proves or disproves
+our hypothesis. We also learned that the best way to test our hypothesis is to isolate
+our variables using a combination of an &lt;em&gt;independent&lt;/em&gt; and &lt;em&gt;dependent&lt;/em&gt;
+variable. The isolation of variables is key as it ensures us that there's no
+cross-contamination; no intermingling of multiple hypothesis which could ultimately
+discredit our findings.
+&lt;/p&gt;
+
+&lt;p&gt;
+This concept is not new to the interwebs. We've got A/B and multivariate testing
+taking place left and right. There's even been recent discussion on the usage of
+&lt;a href=&quot;http://untyped.com/untyping/2011/02/11/stop-ab-testing-and-make-out-like-a-bandit/&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;bandit testing&lt;/a&gt;
+in favor of A/B testing. My belief is that entrepreneurs need to incorporate
+a bit more deductive reasoning into the early stages of their startup's lifecycle.
+There should be an early focus on monitoring &lt;em&gt;cause and effect&lt;/em&gt; with analytics
+to back up their hunches. Building a startup is a learning experience; perhaps one
+could even say a &lt;em&gt;science experiment&lt;/em&gt; of sorts. It's a series of
+successes and failures; each coupled with their own lessons to be learned. Without
+some form of measurement, it's difficult to determine whether you're leaning towards
+success or failure. So let's talk about measurements, shall we?
+&lt;/p&gt;
+
+&lt;h2&gt;How to Measure Startup ROI&lt;/h2&gt;
+&lt;p&gt;
+You can start by building a company and culture that idolizes it's metrics.
+Let metrics be a tool that helps guide your decision making process; a tool
+that can help you to re-evaluate your goals.
+If you're overly invested in a new feature that's rolling out, let the metrics play devil's advocate. 
+If you aren't measuring and analyzing, I would argue you aren't readily capable of
+justifying decisions that have been made in the past. Don't fret, we're all guilty of
+this. I just slapped myself on the wrist because I still do this on personal projects.
+It's a horrible habit and something that needs to be broken. My best advice is to always be looking for ways to collect
+more statistics. This could be site traffic, conversion rates, email campaign
+analytics, measuring variances in user engagement from the addition or removal
+of a new feature (i.e. time spent on page), etc. It could also be in terms of
+increased customer support requests, consistent complaints on social networks,
+or simply nothing. If you notice absolutely no customer engagement changes
+when adding a new feature, could it really be that important?
+&lt;/p&gt;
+
+&lt;p&gt;
+Once you've formed a pattern of collecting statistics, you need to generate hypothesis
+based on your available metrics that will help you determine the actual success
+of a feature or change. Make sure to structure your hypothesis in a time dependent manner,
+as it's not possible to calculate statistical significance without a large enough sampling.
+The process of validating your hypothesis with real metrics can be invaluable when meeting with
+your board of advisors or investors. With that being said, you can save yourself
+previous time by analyzing features before you even consider adding them to your icebox or backlog.
+&lt;/p&gt;
+
+&lt;h2&gt;Stop Bad Ideas in Their Tracks&lt;/h2&gt;
+&lt;p&gt;
+You can begin by always being critical of yourself and your decisions. Flesh
+out your ideas before jumping straight into implementation.
+&lt;/p&gt;
+
+&lt;blockquote&gt;
+    &lt;p&gt;
+    Be your own worst critic. When things go wrong it's tempting to shift the blame. Don't. 
+    Accept responsibility. People will appreciate it, and you will find out what you're capable of.
+    &lt;/p&gt;
+    &lt;small&gt;Paul Arden&lt;/small&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;
+We'll go old school again with the &lt;a href=&quot;http://en.wikipedia.org/wiki/Five_Ws&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;Five Ws&lt;/a&gt;:
+&lt;em&gt;who&lt;/em&gt;, &lt;em&gt;what&lt;/em&gt;, &lt;em&gt;when&lt;/em&gt;, &lt;em&gt;where&lt;/em&gt;, and &lt;em&gt;why&lt;/em&gt;?
+It may seem obvious that you should be asking yourself these questions, but I would
+argue that they're often either overlooked or forgotten. There needs to be an
+emphasis on hypothesizing potential outcomes and recognizing when something
+isn't panning out sooner than later. We need to be nipping these unsuccessful
+decisions in the butt; catching them as soon as there's statistical significance
+indicating no noticeable increase in traction. Simply asking yourself these questions
+before making a decision can help you gauge whether the idea should be scrapped altogether.
+Let's discuss some possible questions you may ask yourself:
+&lt;/p&gt;
+
+&lt;h3&gt;WHO&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Who does this decision directly affect?&lt;/li&gt;
+  &lt;li&gt;Who does this decision positively affect?&lt;/li&gt;
+  &lt;li&gt;Who does this decision negatively affect?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;WHAT&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;What gains do you hope to receive as a direct result of carrying out this decision?&lt;/li&gt;
+  &lt;li&gt;What losses would you incur if this decision flops?&lt;/li&gt;
+  &lt;li&gt;What is the timeline you are going to set for this decision to blossom?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;WHEN&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;When will you act on this decision?&lt;/li&gt;
+  &lt;li&gt;When does this decision need to be completed?&lt;/li&gt;
+  &lt;li&gt;When will you begin seeing positive gains from this decision?&lt;/li&gt;
+  &lt;li&gt;When will you scrap this decision if it looks like it's failing?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;WHERE&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Where does this decision fit among others in terms of priority?&lt;/li&gt;
+  &lt;li&gt;Where does this decision fit among others in terms of pre-requisites?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;WHY&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Why are you making this decision in the first place?&lt;/li&gt;
+  &lt;li&gt;Why is this decision beneficial to the startup?&lt;/li&gt;
+  &lt;li&gt;Why is this decision crucial to the success of your startup?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;HOW&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;How are you going to ensure this decision is carried out?&lt;/li&gt;
+  &lt;li&gt;How are you going to ensure that you follow through with this decision?&lt;/li&gt;
+  &lt;li&gt;How could you improve this decision to be more specific?&lt;/li&gt;
+  &lt;li&gt;How could you simplify this decision into smaller, more attainable ones?&lt;/li&gt;
+  &lt;li&gt;How long will it take to complete this decision?&lt;/li&gt;
+  &lt;li&gt;How are you going to measure this decision so it can later be analyzed?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;
+The questions above are samples as to the types of questions you
+might ask yourself in regards to making important decisions. They are effectively
+the precursor to measuring Startup ROI. Decisions may come
+in many forms, but you are likely to focus on your product's feature set as it
+has some of the highest ROI variability. These questions alone won't help you measure
+Startup ROI, but they will give you a quick indication of whether or not something
+is even worth jotting down. For generating actual hypothesis and drawing conclusions,
+I personally recommend trying to fit them into the
+&lt;a href=&quot;http://en.wikipedia.org/wiki/Business_Model_Canvas&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;Business Model Canvas&lt;/a&gt;. 
+&lt;/p&gt;
+
+&lt;h2&gt;The Business Model Canvas&lt;/h2&gt;
+&lt;p&gt;
+The Business Model Canvas is essentially a short form business model that evolves
+over time. One of it's benefits is it's ability to assist you in aligning your
+company's activities by illustrating potential trade-offs. It allows you to
+provide testable hypothesis and pivot based on their
+outcomes. You can view a quick 2 minute video overview of the Business Model
+Canvas and download a usable PDF from the
+&lt;a href=&quot;http://www.businessmodelgeneration.com/canvas&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;Business Model Generation&lt;/a&gt;
+website. The wikipedia article linked above is also a great and abridged read.
+&lt;a href=&quot;http://steveblank.com&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;Steve Blank&lt;/a&gt;,
+an icon in the world of entrepreneurship, uses the Business Model Canvas in his
+&lt;a href=&quot;http://steveblank.com/2010/12/07/the-lean-launchpad-%E2%80%93-teaching-entrepreneurship-as-a-management-science/&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;Lean LaunchPad&lt;/a&gt;
+classes that he now teaches at U.C. Berkley, Stanford University, Columbia
+University, and the Joint Berkley/Columbia Executive MBA program. Steve has
+always released the student presentations at the end of the class. They prove
+to be invaluable resource in helping to understand the Business Model Canvas
+and I highly recommend reading each team's slides:
+&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://steveblank.com/2011/05/10/the-lean-launchpad-at-stanford-%e2%80%93-the-final-presentations/&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;The Lean LaunchPad at Stanford – The Final Presentations 2011&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://steveblank.com/2012/03/07/stanford-2012-lean-launchpad-presentations-part-1-of-2/&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;Stanford 2012 Lean LaunchPad Presentations – part 1 of 2&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://steveblank.com/2012/03/14/stanford-2012-lean-launchpad-presentations-part-2-of-2/&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;Stanford 2012 Lean LaunchPad Presentations – part 2 of 2&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+        &lt;hr&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+    &lt;div class=&quot;span3 columns&quot;&gt;&amp;nbsp;&lt;/div&gt;
+    &lt;div class=&quot;span9 column&quot;&gt;
+        &lt;p class=&quot;pull-right&quot;&gt;
+            
+            &lt;a href=&quot;/blog/why-contribute-to-open-source-projects&quot; title=&quot;Previous Post: Why you should contribute to open source projects&quot;&gt;&lt;i class=&quot;icon-chevron-left&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+            
+            
+        &lt;/p&gt;  
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+
+&lt;div class=&quot;row&quot;&gt;
+    &lt;div class=&quot;span3 columns&quot;&gt;&amp;nbsp;&lt;/div&gt;
+    &lt;div class=&quot;span9 columns&quot;&gt;    
+        &lt;h2&gt;Comments Section&lt;/h2&gt;
+        &lt;p&gt;Feel free to comment on the post but keep it clean and on topic.&lt;/p&gt; 
+        &lt;div id=&quot;disqus_thread&quot;&gt;&lt;/div&gt;
+        &lt;script type=&quot;text/javascript&quot;&gt;
+            /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+            var disqus_shortname = 'ericjones'; // required: replace example with your forum shortname
+
+            /* * * DON'T EDIT BELOW THIS LINE * * */
+            (function() {
+                var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+                dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+                (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+            })();
+        &lt;/script&gt;
+        &lt;noscript&gt;Please enable JavaScript to view the &lt;a href=&quot;http://disqus.com/?ref_noscript&quot;&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+
+&lt;!-- Twitter --&gt;
+
+
+&lt;script&gt;!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=&quot;//platform.twitter.com/widgets.js&quot;;fjs.parentNode.insertBefore(js,fjs);}}(document,&quot;script&quot;,&quot;twitter-wjs&quot;);&lt;/script&gt;
+
+
+
+
+&lt;!-- Google + --&gt;
+
+
+&lt;script type=&quot;text/javascript&quot;&gt;
+  (function() {
+    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+    po.src = 'https://apis.google.com/js/plusone.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+  })();
+&lt;/script&gt;
+
+</content>
+ </entry>
  
  <entry>
    <title>Why you should contribute to open source projects</title>
@@ -18,6 +337,25 @@
    <id>http://cballou.github.com/blog/why-contribute-to-open-source-projects</id>
    <content type="html">&lt;div class=&quot;row&quot;&gt;
     &lt;div class=&quot;span3 columns&quot;&gt;
+        &lt;h3&gt;About the Author&lt;/h3&gt;
+        &lt;p&gt;
+          &lt;img
+            src=&quot;https://si0.twimg.com/profile_images/1826673279/corey_twitter_reasonably_small.jpg&quot;
+            alt=&quot;Corey Ballou&quot; title=&quot;Follow me on Twitter @cballou&quot;
+            class=&quot;floatLeft profile-pic&quot;
+            width=&quot;64&quot;
+            height=&quot;64&quot;
+          /&gt;
+          I'm &lt;strong&gt;Corey&lt;/strong&gt; and I am a web developer, blogger, open
+          source contributor, beer lover, homebrewer, aspiring entrepreneur, Queen City
+          PHP co-organizer, and employee at &lt;a href=&quot;http://mojolive.com&quot; target=&quot;_blank&quot;&gt;mojoLive&lt;/a&gt;.
+        &lt;/p&gt;
+        &lt;p&gt;
+            For more information, you can visit my website at &lt;a href=&quot;http://coreyballou.com&quot; target=&quot;_blank&quot;&gt;coreyballou.com&lt;/a&gt;,
+            web development blog &lt;a href=&quot;http://blackbe.lt&quot; target=&quot;_blank&quot;&gt;blackbelt&lt;/a&gt;, or follow me on twitter:
+            &lt;a href=&quot;https://twitter.com/cballou&quot; class=&quot;twitter-follow-button btn btn-mini&quot; data-show-count=&quot;false&quot;&gt;Follow @cballou&lt;/a&gt;
+        &lt;/p&gt;
+        
         &lt;h3&gt;Socialize and Share&lt;/h3&gt;
         &lt;p&gt;
         &lt;a href=&quot;https://twitter.com/share&quot; class=&quot;twitter-share-button&quot; data-via=&quot;cballou&quot;&gt;Tweet&lt;/a&gt;&lt;br /&gt;
@@ -102,13 +440,6 @@
         part about the open source community.
         &lt;/p&gt;
 
-        &lt;h2&gt;Stay Tuned&lt;/h2&gt;
-        &lt;p&gt;
-        In my next post, I'll be detailing the process of setting up and maintaining a github
-        repository as well as how you can begin contributing to existing github
-        projects.
-        &lt;/p&gt;
-
         &lt;hr&gt;
     &lt;/div&gt;
 &lt;/div&gt;
@@ -121,6 +452,8 @@
     &lt;div class=&quot;span9 column&quot;&gt;
         &lt;p class=&quot;pull-right&quot;&gt;
             
+            
+            &lt;a href=&quot;/blog/startup-roi&quot; title=&quot;Next Post: Startup ROI and Agile Development&quot;&gt;&lt;i class=&quot;icon-chevron-right&quot;&gt;&lt;/i&gt;&lt;/a&gt;
             
         &lt;/p&gt;  
     &lt;/div&gt;

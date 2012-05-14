@@ -6,6 +6,25 @@ category: Development
 
 <div class="row">
 	<div class="span3 columns">
+        <h3>About the Author</h3>
+        <p>
+          <img
+            src="https://si0.twimg.com/profile_images/1826673279/corey_twitter_reasonably_small.jpg"
+            alt="Corey Ballou" title="Follow me on Twitter @cballou"
+            class="floatLeft profile-pic"
+            width="64"
+            height="64"
+          />
+          I'm <strong>Corey</strong> and I am a web developer, blogger, open
+          source contributor, beer lover, homebrewer, aspiring entrepreneur, Queen City
+          PHP co-organizer, and employee at <a href="http://mojolive.com" target="_blank">mojoLive</a>.
+        </p>
+        <p>
+            For more information, you can visit my website at <a href="http://coreyballou.com" target="_blank">coreyballou.com</a>,
+            web development blog <a href="http://blackbe.lt" target="_blank">blackbelt</a>, or follow me on twitter:
+            <a href="https://twitter.com/cballou" class="twitter-follow-button btn btn-mini" data-show-count="false">Follow @cballou</a>
+        </p>
+        
         <h3>Socialize and Share</h3>
         <p>
         <a href="https://twitter.com/share" class="twitter-share-button" data-via="cballou">Tweet</a><br />
@@ -88,13 +107,6 @@ category: Development
         a conscious decision to create your first public github repository. It's
         an essential first step. The rest of us are here to help; that's the greatest
         part about the open source community.
-        </p>
-
-        <h2>Stay Tuned</h2>
-        <p>
-        In my next post, I'll be detailing the process of setting up and maintaining a github
-        repository as well as how you can begin contributing to existing github
-        projects.
         </p>
 
         <hr>
